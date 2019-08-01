@@ -1,0 +1,81 @@
+body 
+{
+	text-align: center;
+	font-family: arial;
+}
+
+#header
+{
+	background-color: #C4170C;
+	color: #FFF;
+}
+
+#header h2
+{
+	background-color: #B0140A;
+}
+
+#titulo-materia h1
+{
+	margin: 0 150px 0 150px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#titulo-materia h2
+{
+	margin: 30px 250px 0 150px;
+	text-align: left;
+	font-weight: normal;
+	font-size: 20px;
+	color: #595959;
+}
+
+#fonte-hora
+{
+	margin: 40px 200px 0 150px;
+	text-align: left;
+}
+
+#fonte-hora h3
+{
+	color: #555555;
+	font-size: 17px;
+}
+
+#fonte-hora h4
+{
+	margin-top: -10px;
+	font-weight: normal;
+	color: #5C5C5C;
+	font-size: 13px;
+}
+
+#materia
+{
+	margin: auto;
+	width: 700px;
+}
+
+#materia img
+{
+	width: 700px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#materia figcaption
+{
+	color: #8F8F8F;
+	font-weight: normal;
+	margin-top: 5px;
+	text-align: left;
+	font-size: 13px;
+}
+
+#materia p
+{
+	text-align: justify;
+	line-height: 30px;
+}

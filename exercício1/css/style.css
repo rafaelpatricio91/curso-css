@@ -1,0 +1,81 @@
+#all
+{
+	margin-left: 100px;
+	font-family: arial;
+	margin-bottom: 50px;
+}
+
+#barra-superior
+{
+	background-color: #FF7212;
+	color: #FFF;
+	font-size: 34px;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+#conteudo
+{
+	margin: 35px 100px 40px 20px;
+}
+
+#titulo
+{
+
+}
+
+#fonte-data
+{
+
+}
+
+#titulo
+{
+	font-size: 25px;
+}
+
+#materia
+{
+	margin-top: 50px;
+	margin-right: 150px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #484848;
+}
+
+#materia img
+{
+	width: 700px;
+}
+
+#materia figcaption
+{
+	color: #000;
+	font-size: 13px;
+	margin-top: -10px;
+}
+
+#video
+{
+	color: #000;
+}
+
+#video iframe
+{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+#lista-saiba-mais ul
+{
+	list-style-type: none;
+	padding: 0px;
+}
+
+#lista-saiba-mais li a
+{
+	color: #484848;
+	text-decoration-style: none;
+	font-size: 20px;
+	line-height: 30px;
+}
