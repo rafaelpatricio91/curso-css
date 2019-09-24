@@ -34,13 +34,13 @@ header
     text-transform: uppercase;
 }
 
-nav
+#menu
 {
     font-size: 26px;
     height: 50px;
 }
 
-nav ul
+#menu ul
 {
     text-align: right;
     margin-top: 0;
@@ -48,7 +48,7 @@ nav ul
     height: 50px;
 }
 
-nav li
+#menu li
 {
     display: inline; 
     padding: 15px;
@@ -93,7 +93,7 @@ nav li
 
 #conteudo
 {
-    padding-left: 30px;
+    padding: 15px 180px 50px 70px;
 }
 
 #conteudo h1
@@ -116,9 +116,58 @@ nav li
 {
     font-size: 30px;
     margin-top: -30px;
+    text-align: justify;
+}
+
+#conteudo ul
+{
+    padding: 0px;
+    list-style-type: none;
+    margin-top: -30px;
 }
 
 #conteudo li
 {
     font-size: 30px;
+    text-decoration: none;
+}
+
+footer
+{
+    text-align: center;
+    font-size: 25px;
+}
+
+#breadcrumb
+{
+    padding-left: 30px;
+}
+
+#breadcrumb ul
+{
+    padding-left: 0px;
+    color: rgba(175, 166, 166, 0.753);
+}
+
+#breadcrumb li
+{
+   display: inline;
+   font-size: 25px;
+   
+}
+
+.texto 
+{
+    margin-top: 300px;
+    background-color: rgb(109, 109, 26);
+}
+
+.p-hr
+{
+    margin-top: 100px;
+}
+
+#conteudo hr
+{
+    margin-top: 0px;
 }

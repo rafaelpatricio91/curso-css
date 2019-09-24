@@ -9,8 +9,9 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="main">
         <header>
-            <nav>
+            <nav id="menu">
                 <ul>
                     <li>Home</li>
                     <li>Portfólio</li>
@@ -20,17 +21,27 @@
             </nav>
         </header>
 
+        <nav id="breadcrumb">
+            <ul>
+                <li>Home</li>
+                <li>></li>
+                <li>Currículo</li>
+            </ul>
+        </nav>
+
         <article id="conteudo">
             <h1>Currículo</h1>
-            <h2>Dados pessoais</h2>
-            <h3>Nome</h3>
-            <p class="info">Rafael Silva Patricio</p>
-            
-            <h3>Data de Nascimento</h3>
-            <p class="info">02/10/1991</p>
+            <h2>Dados pessoais</h2> 
+            <p class="p-hr"><hr></p>
 
-            <h3>Residência</h3>
-            <p class="info">Queimados - RJ, Brasil</p>
+                <h3>Nome</h3>
+                <p class="info">Rafael Silva Patricio</p>
+                
+                <h3>Data de Nascimento</h3>
+                <p class="info">02/10/1991</p>
+
+                <h3>Residência</h3>
+                <p class="info">Queimados - RJ, Brasil</p>
 
             <h3>Idiomas</h3>
             <ul>
@@ -38,9 +49,11 @@
                 <li class="info">Inglês (Fluente)</li>
                 <li class="info">Espanhol (Básico)</li>
             </ul>
-            
-            <h2>Sobre mim</h2>
-                <p class="info">Lorem ipsum dolor, sit amet 
+
+            <h2 id="about">Sobre mim</h2>
+            <p class="p-hr"><hr></p>
+
+                <p>Lorem ipsum dolor, sit amet 
                     consectetur adipisicing elit. Quasi perspiciatis 
                     totam ab. Corporis vitae quisquam quasi rerum 
                     molestiae error fugit, veritatis consectetur 
@@ -64,25 +77,34 @@
                 </p>
             
             <h2>Formação</h2>
+            <p class="p-hr"><hr></p>
 
-            <h3>Graduação</h3>
-                <ul>
-                    <li>Sistemas de Informação - FAETERJ-Paracambi</li>
-                    <li>Tecnólogo em Hotelaria - SENAC RJ</li>
-                </ul>
-            
-            <h3>Cursos</h3>
-                <ul>
-                    <li>Java Web Developer - COTI Informática</li>
-                    <li>Spring Expert Framework - Algaworks</li>
-                    <li>HTML5 e CSS3 - Udemy</li>
-                </ul>
+                <h3>Graduação</h3>
+                    <ul>
+                        <li>Sistemas de Informação - FAETERJ-Paracambi</li>
+                        <li>Tecnólogo em Hotelaria - SENAC RJ</li>
+                    </ul>
+                
+                <h3>Cursos</h3>
+                    <ul>
+                        <li>Java Web Developer - COTI Informática</li>
+                        <li>Spring Expert Framework - Algaworks</li>
+                        <li>HTML5 e CSS3 - Udemy</li>
+                    </ul>
 
-            <h3>Projetos</h3>
-                <li>Link Projeto 1</li>
-                <li>Link projeto 2</li>
-                <li>Link projeto 3</li>
+                <h3>Projetos</h3>
+                    <ul>
+                        <li>Link Projeto 1</li>
+                        <li>Link projeto 2</li>
+                        <li>Link projeto 3</li>
+                    </ul>
 
         </article>
+
+        <footer>
+            RafaDev - Direitos Reservados
+        </footer>
+
+    </div>
 </body>
 </html>
